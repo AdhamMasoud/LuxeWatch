@@ -1,0 +1,68 @@
+.ctitle{
+    margin-left: 30px;
+    color:#43453c;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.cinfo{
+    width: 400px;
+    height: 420px;
+    background-color: #43453c;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+    
+    
+}
+.Fname{
+    margin-top: 50px;
+    display: block;
+    margin-left: 30px;
+    width: 80%;
+    height: 40px;
+    padding-left:5px ;
+    border-radius: 0;
+    font-family: "Playwrite NZ", cursive;
+    border: 5px outset black;
+}
+.Email1{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 80%;
+    height: 40px;
+    padding-left:5px ;
+    border-radius: 0;
+    font-family: "Playwrite NZ", cursive;
+    border: 5px outset black;
+}
+.Cmsg{
+    display: block;
+    margin-left: 30px;
+    width: 80%;
+    height: 100px;
+    padding-left:5px ;
+    border-radius: 0;
+    border: 5px outset black;
+    margin-bottom: 20px;
+    padding-top: 0;
+    font-family: "Playwrite NZ", cursive;
+}
+.subc{
+    width: 100px;
+    height: 40px;
+    border-radius: 0;
+    border: 5px outset black;
+    margin-left: 30px;
+    font-family: "Playwrite NZ", cursive;
+    cursor: pointer;
+}
+.subc:hover{
+    background-color: rgb(211,215,207);
+    transition: ease-in-out 0.2s;
+}
+.subc:active{
+    border: none;
+}

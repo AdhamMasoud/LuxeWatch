@@ -1,0 +1,108 @@
+.checkL{
+    cursor: pointer;
+}
+.ctitle2{
+    margin-left: 30px;
+    color:#43453c;
+    margin-top: 100px;
+    display: block;
+    
+}
+.rmbrme{
+    margin-left: 30px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+.psword{
+    margin-left: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.cinfo2 a:active{
+color: black;
+}
+.signa{
+    color: rgb(211,215,207);
+    cursor: pointer;
+    text-decoration: none;
+}
+.Email{
+    
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 80%;
+    height: 40px;
+    padding-left:5px ;
+    border-radius: 0;
+    font-family: "Playwrite NZ", cursive;
+    border: 5px outset black;
+}
+.suba{
+    width: 100px;
+    height: 40px;
+    border-radius: 0;
+    border: 5px outset black;
+    margin-left: 30px;
+    font-family: "Playwrite NZ", cursive;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.suba:hover{
+    background-color: rgb(211,215,207);
+    transition: ease-in-out 0.2s;
+}
+.suba:active{
+    border: none;
+    
+}
+
+.sign{
+    margin-left: 30px;
+    
+}
+.imgacc{
+    margin-right: 0px;
+    width: 340px;
+    height: 410px;
+    box-shadow:  0px 0px 0px 5px #43453c;
+    
+    margin-top: 5px;
+}
+.img{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cinfo2{
+    width: 400px;
+height: 420px;
+background-color: #43453c;
+
+
+}
+@media screen and (max-width: 845px) {
+    .psword{
+        display: block;
+        margin-top: 10px;
+      
+    } 
+    .imgacc{
+        margin-left: 2%;
+    }
+    .cinfo2{
+        margin-right: 2%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .imgacc{
+        display: none;
+    }
+    .cinfo2{
+        margin-left: 2%;
+    }
+  }
