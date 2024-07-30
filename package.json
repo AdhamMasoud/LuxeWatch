@@ -1,9 +1,10 @@
 {
+  "homepage": "https://adhammasoud.github.io/LuxeWatch",
   "name": "react-start",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://adhammasoud.github.io/LuxeWatch",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
