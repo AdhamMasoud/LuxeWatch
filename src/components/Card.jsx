@@ -7,7 +7,7 @@ function Card(props){
         <div id="card">
             
             <div className="Product">
-                <img className="pimg" src={props.image}></img>
+                <img className="pimg" require={props.image}></img>
                 <hr></hr>
                 <h4>{props.name}</h4>
                 <p>{props.price}</p>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -41,9 +42,10 @@ function Footer(){
                     </div>
                     <div className="section">
                         <h4>Company</h4>
-                        <a href="/about">
-                            <p>About</p>
-                        </a>
+                        <Link to={'/about'}>
+                        <a>About</a>
+                        </Link>
+
                         <a href="/press">
                             <p>Press</p>
 
@@ -51,9 +53,10 @@ function Footer(){
                         <a href="/career">
                             <p>Career</p>
                         </a>
-                        <a href="/contact">
-                            <p>Contact</p>
-                        </a>
+                        <Link to={'/contact'}>
+                            <a >Contact</a>
+                        </Link>
+
                         
                     </div>
                     <div className="section">

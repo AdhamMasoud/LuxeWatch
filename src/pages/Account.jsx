@@ -1,6 +1,7 @@
 import Header from "../components/Header.jsx"
 import Footer from "../components/Footer.jsx"
 import './Account.css'
+import { Link } from "react-router-dom";
 
 function Account() {
     
@@ -18,7 +19,10 @@ function Account() {
                         <a className="psword" href="#">Forget Password?</a>
                         <button className="suba">Login</button><br></br>
                         <label className="sign">Don't have an account?</label>
-                        <a className="signa" href="/signup">Sign Up</a>
+                        <Link to={'/signup'}>
+                        <a className="signa">Sign Up</a>
+                        </Link>
+
                     </div>
                     
                 </div>

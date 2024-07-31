@@ -13,8 +13,8 @@ function App() {
       <HashRouter>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/LuxeWatch/home" element={<Home />} />
-          <Route path="/LuxeWatch/about" element={<About />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/account" element={<Account />} />

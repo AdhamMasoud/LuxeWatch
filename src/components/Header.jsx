@@ -1,16 +1,28 @@
-
+import { Link } from "react-router-dom";
 
 function Header(){
     return(
         
         <nav className="header">
-            <h1 className="title"><a  href="/LuxeWatch/home">LuxeWatch</a></h1>
+            <Link to={'/'}>
+                <h1 className="title"><a >LuxeWatch</a></h1>
+            </Link>
+
             
             <div className="rightplace">
-                <a className="btn" href="/LuxeWatch/about">About</a>
-                <a className="btn" href="/products">Products</a>
-                <a className="btn" href="/contact">Contact</a>
-                <a className="btn" href="/account">Account</a>
+                <Link to={'/about'}>
+                    <a className="btn" >About</a>
+                </Link>
+                <Link to={'/products'}>
+                    <a className="btn" >Products</a>
+                </Link>
+                <Link to={'/contact'}>
+                <a className="btn" >Contact</a>
+                </Link>
+                <Link to={'/account'}>
+                <a className="btn" >Account</a>
+                </Link>
+
                 
             </div>
             <div className="menu"><img src="src\assets\bars-solid.svg"></img></div>

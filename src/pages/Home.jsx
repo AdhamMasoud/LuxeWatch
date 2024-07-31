@@ -8,7 +8,7 @@ import Card from "../components/Card";
 
 function Home() {
   const fcards = Featured.map(card => {
-    return <Card name = {card.name} price = {card.price} image ={card.image} />
+    return <Card name = {card.name} price = {card.price} image ={card.image} key = {card.id}/>
 })
   
   return (
