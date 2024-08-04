@@ -15,8 +15,8 @@ function Home() {
     <>
     <Header/>
     <Intro/>
-    <h2 class="start">Featured Products</h2>
-    <div class="Featured">
+    <h2 className="start">Featured Products</h2>
+    <div className="Featured">
       {fcards}
     </div>
     
