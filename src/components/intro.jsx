@@ -6,7 +6,7 @@ function Intro(){
         <div>
             
             <div className="introP">
-                <img className="background" src='/images/Luxe Watch1.png'></img>
+                <img className="background" src='images/Luxe Watch1.png'></img>
                 <div className="intro">
                     <h1>Timeless Elegance, Every Moment Counted.</h1>
                 </div>
@@ -18,9 +18,9 @@ function Intro(){
                 
             </div>
             <div className="imgs">
-                <img className="imgintro" src="/images/pexels-nandkumar-patel-1333170-3083461.jpg"></img>
-                <img className="imgintro" src="/images/pexels-marius-mann-772581-1697218.jpg"></img>
-                <img className="imgintro" src="/images/pexels-marius-mann-772581-1697220.jpg"></img>
+                <img className="imgintro" src="images/pexels-nandkumar-patel-1333170-3083461.jpg"></img>
+                <img className="imgintro" src="images/pexels-marius-mann-772581-1697218.jpg"></img>
+                <img className="imgintro" src="images/pexels-marius-mann-772581-1697220.jpg"></img>
             </div>
         </div>
 

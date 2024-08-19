@@ -19,7 +19,7 @@ function Account() {
                         <button className="suba">Sign up</button><br></br>
 
                     </div>
-                <img className="imgacc1" src="/images/pexels-nandkumar-patel-1333170-3083461.jpg"></img>
+                <img className="imgacc1" src="images/pexels-nandkumar-patel-1333170-3083461.jpg"></img>
                 </div>
         <Footer/>
         </>

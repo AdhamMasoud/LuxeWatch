@@ -10,7 +10,7 @@ function Account() {
         <Header/>
             <h2 className="ctitle2">Account</h2>
                 <div className="img">
-                <img className="imgacc" src="/images/pexels-marius-mann-772581-1697218.jpg"></img>
+                <img className="imgacc" src="images/pexels-marius-mann-772581-1697218.jpg"></img>
                     <div className="cinfo2">
                         <input className="Fname" placeholder="Email"></input>
                         <input  type="password" className="Email" placeholder="Password"></input><br></br>
