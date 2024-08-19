@@ -1,0 +1,13 @@
+
+.header{
+  background-color: aqua;
+  margin-top: 0;
+  height: 60px;
+  position: relative;
+}
+.header h1{
+  margin-left: 10px;
+  color: blueviolet;
+  margin-top: 10px;
+  position: absolute;
+}

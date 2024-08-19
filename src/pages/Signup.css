@@ -1,0 +1,42 @@
+.cinfo3{
+    width: 400px;
+height: 450px;
+background-color: #43453c;
+
+}
+.imgacc1{
+    margin-right: 0px;
+    width: 340px;
+    height: 440px;
+    box-shadow:  0px 0px 0px 5px #43453c;
+    
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 845px) {
+    .psword{
+        display: block;
+        margin-top: 10px;
+      
+    } 
+    .imgacc1{
+        margin-right: 2%;
+    }
+    .cinfo3{
+        margin-left: 2%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .imgacc1{
+        display: none;
+    }
+    .cinfo3{
+        margin-left: 2%;
+    }
+  }
+  @media screen and (max-width: 430px) {
+    .cinfo3{
+        margin-right: 2%;
+    }
+  }
