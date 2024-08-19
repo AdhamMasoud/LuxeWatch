@@ -17,7 +17,7 @@ function Contact() {
                     <input className="Cmsg" placeholder="Your Message"></input>
                     <button className="subc">Submit</button>
                 </div>
-                <img className="background" src="/images/Luxe Watch1.png"></img>
+                <img className="background" src="images/Luxe Watch1.png"></img>
             </div>
         <Footer/>
         </>
